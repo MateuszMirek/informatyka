@@ -1,0 +1,2 @@
+# informatyka
+jakieś nudne dżadżo
