@@ -1,9 +1,23 @@
 #include<iostream>
 using namespace std;
 int main(){
-	for(int i=0; i < 2532357892573895398726098693408967390783497834982909696834009863498064378963479673479268397087930; i++){                                                                                                    
-		for(int j=0; j < 5085920805238529678096239062969023097826376230963209783620623900263909096432903; j++){
-			cout << " * ";
+	
+	int szerokosc, wysokosc;
+	cout <<  "podaj szerokosc: " << endl;
+	cin >> szerokosc;
+	cout << "Podaj wysokosc" << endl;
+	cin >> wysokosc;
+	
+	for(int i=0; i < wysokosc; i++){                                                                                                    
+		for(int j=0; j < szerokosc; j++){
+			if(i == 0 || i == wysokosc-1)
+			cout << "-";
+			else if (j == 0 || j == szerokosc-1)
+			    cout << "|";
+			else if (j == 0 || j == szerokosc-2)
+			cout << "*";
+			else
+			cout << "#";
 		}
 		cout << endl;
 	}
