@@ -1,0 +1,11 @@
+int liczba[ 10 ];
+cin >> liczba[ 0 ];
+cin >> liczba[ 1 ];
+cin >> liczba[ 2 ];
+cin >> liczba[ 3 ];
+cin >> liczba[ 4 ];
+cin >> liczba[ 5 ];
+cin >> liczba[ 6 ];
+cin >> liczba[ 7 ];
+cin >> liczba[ 8 ];
+cin >> liczba[ 9 ];
